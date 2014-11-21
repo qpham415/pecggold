@@ -16,14 +16,10 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="menu-static">
-    <div id="pecglogo">PECG Golden Gate</div>
+    <div id="pecglogo"><?php echo $site_title = get_bloginfo( 'name' ); ?></div>
     <div id="staticlinks">
-      <div class="menuitem currLink" id="home"><a class="menulinks">Home</a></div>
-      <div class="menuitem" id="about"><a class="menulinks">About</a></div>
-      <div class="menuitem" id="news" ><a class="menulinks">News</a></div>
-      <div class="menuitem" id="officers"><a class="menulinks">Officers</a></div>
-      <div class="menuitem" id="membership"><a class="menulinks">Membership</a></div>
-      <div class="menuitem" id="contact"><a class="menulinks">Contact</a></div>
+      <?php #wp_page_menu( 'sort_column=menu_order' ); ?>
+      <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => false ) ); ?>
     </div>
   </div>
   <div class="clear"></div>
@@ -46,12 +42,8 @@
             </div>
           </div>
           <div id="menu">
-            <div class="menuitem currLink" id="home"><a class="menulinks">Home</a></div>
-            <div class="menuitem" id="about"><a class="menulinks">About</a></div>
-            <div class="menuitem" id="news" ><a class="menulinks">News</a></div>
-            <div class="menuitem" id="officers"><a class="menulinks">Officers</a></div>
-            <div class="menuitem" id="membership"><a class="menulinks">Membership</a></div>
-            <div class="menuitem" id="contact"><a class="menulinks">Contact</a></div>
+            <?php #wp_page_menu( 'sort_column=menu_order' ); ?>
+            <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => false, 'menu_class' => 'menu-main', 'menu_id' => 'menu-main' ) ); ?>
           </div>
         </div>
     </div>

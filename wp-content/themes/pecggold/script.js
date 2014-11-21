@@ -101,23 +101,33 @@ $(document).ready(function(){
 	if (iteration>2) iteration=1
 	$(this).data('iteration',iteration)
   });
-
+/*
   //Update disclaimer with date
   var date = new Date();
   var year = date.getFullYear();
   function printDisclaimer(){
     document.getElementById("disclaimer").innerHTML = "Professional Engineers in California Government " + year + " - All Rights Reserved.";
   }
-  printDisclaimer();
+  printDisclaimer(); */
 
   //Navigation bar animation
   function addSlider() {
-    $('#menu').prepend('<div class="menuSlider"></div>');
+    $('.menu-main').prepend('<div class="menuSlider"></div>');
+    var mainMenu = document.getElementById('menu-main');
+    var menuItem = mainMenu.getElementsByClassName('current-menu-item');
+    var currentItem = menuItem[0];
+    $(currentItem).addClass('currLink');
+
+    var initialPos = $('.currLink').position();
+    var initialWidth = $('.currLink').width();
+
+    $('.menuSlider').css('width', initialWidth);
+    $('.menuSlider').css('left', initialPos.left);
   }
   addSlider();
 
 
-  $('.menuitem').hover(
+  $('.menu-item').hover(
   function(){
     $(this).addClass('activeLink');
     var mWidth = $('.activeLink').width();
@@ -136,17 +146,6 @@ $(document).ready(function(){
       left: currentPos.left
     },800);
   })
-
-  $('.btmlink').hover(
-    function(){
-      $('.actLink').removeClass('actLink');
-      $(this).addClass('actLink');
-    },
-    function(){
-      $('.actLink').removeClass('actLink');
-      $('.currentLink').addClass('actLink');
-    }
-  );
 
   //Load News Page
 /*  $('#news').click(function(){
@@ -237,6 +236,8 @@ $(document).ready(function(){
 $(window).scroll(function(){
   var scroll = $(window).scrollTop();
   if (scroll > 362) {
-    alert('Test');
+    $('#menu-static').css('top','0px');
+  } else {
+    $('#menu-static').css('top','-45px')
   }
 });
