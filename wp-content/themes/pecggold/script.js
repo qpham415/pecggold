@@ -101,14 +101,14 @@ $(document).ready(function(){
 	if (iteration>2) iteration=1
 	$(this).data('iteration',iteration)
   });
-/*
+
   //Update disclaimer with date
   var date = new Date();
   var year = date.getFullYear();
   function printDisclaimer(){
     document.getElementById("disclaimer").innerHTML = "Professional Engineers in California Government " + year + " - All Rights Reserved.";
   }
-  printDisclaimer(); */
+  printDisclaimer();
 
   //Navigation bar animation
   function addSlider() {
