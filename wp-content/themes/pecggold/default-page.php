@@ -1,18 +1,28 @@
-<?php get_header(); ?>
-<section id="content" role="main">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<header class="header">
-<h1 class="entry-title"><?php the_title(); ?></h1> <?php edit_post_link(); ?>
-</header>
-<section class="entry-content">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-<?php the_content(); ?>
-<div class="entry-links"><?php wp_link_pages(); ?></div>
-</section>
-</article>
-<?php if ( ! post_password_required() ) comments_template( '', true ); ?>
-<?php endwhile; endif; ?>
-</section>
-<?php get_sidebar(); ?>
+<?php
+/*
+Template Name: Home Template
+*/
+get_header();
+?>
+<div class="pageWrapper">
+  <?php the_post(); ?>
+
+  <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+    <div class="pageHeader">
+      <?php the_block('homeHeader') ?>
+    </div>
+
+    <div class="lineBreak"></div>
+
+    <div class="pageContent">
+      <?php the_content(); ?>
+    </div>
+
+  </div><!-- #post-<?php the_ID(); ?> -->
+
+  <?php if ( get_post_custom_values('comments') ) comments_template() // Add a custom field with Name and Value of "comments" to enable comments on this page ?>
+
+</div><!-- wrapper -->
+
 <?php get_footer(); ?>
