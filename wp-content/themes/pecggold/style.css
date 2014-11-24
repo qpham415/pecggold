@@ -6,10 +6,16 @@ h1 {
   font: bold 25px "Arial Black", Gadget, sans-serif !important;
 }
 
-#pagewrap {
-  margin: 0 auto;
-  width: 1008px;
+h2 {
+  font: bold 20px "Arial Black", Gadget, sans-serif !important;
+  color: rgb(100,100,100);
 }
+
+a {
+  text-decoration: none;
+  color: #428bca;
+}
+
 #header {
   height: 362px;
   width: 100%;
@@ -183,7 +189,7 @@ h1 {
   color: rgb(100,100,100);
   text-decoration: none;
 }
-
+/*
 .pagecontent {
   margin-top: 10px;
   background-color: #FFFFFF;
@@ -267,17 +273,17 @@ h1 {
   outline: none;
   margin: 0 30px 5px 30px;
   display: block;
-}
+} */
 
 #disclaimer {
   padding: 100px 0px 30px 100px;
   font: bold 12px "Verdana", sans-serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #footer {
   height: 200px;
-  background: rgb(160,160,160);
+  background: #ffffff;
   font: bold 30px "Verdana", sans-serif;
   height: 100%;
 }
@@ -285,7 +291,7 @@ h1 {
 #footertext {
   text-align: center;
   font: bold 25px "Verdana", sans-serif;
-  color: #FFFFFF;
+  color: #777777;
   padding-top: 40px;
 }
 
@@ -293,12 +299,21 @@ h1 {
   clear: both;
 }
 
+.homePage {
+  background: rgba(160,160,160,0.5);
+  text-align: center;
+}
+
 .pageWrapper {
-  padding: 50px 120px;
+  width: 1077px;
+  padding: 50px;
+  display: inline-block;
 }
 
 .pageHeader {
   text-align: center;
+  background: #ffffff;
+  width: 100%;
 }
 
 .lineBreak {
@@ -317,7 +332,24 @@ h1 {
   text-shadow: 2px 2px 2px #000066;
 }
 
-/* News page */
+.entry-title {
+  font: bold 30px "Verdana", sans-serif;
+  color: #428bca;
+  text-decoration: none !important;
+  float: left;
+}
+
+#blogContent {
+  background-color: rgba(200,200,200,0.2);
+  padding: 50px 170px 60px 170px;
+}
+
+.post {
+  border-top: 2px solid rgba(0,0,0,0);
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+/* News page
 .artcontainer {
   padding: 30px 0;
   float: left;
@@ -327,7 +359,7 @@ h1 {
   margin-left: 10px;
   border-top: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
-}
+} */
 .articleborders {
   border-top: 2px solid rgba(192,192,192,1);
   border-bottom: 2px solid rgba(192,192,192,0.6);
@@ -337,6 +369,7 @@ h1 {
   -o-transition:0.05s;
   transition:0.05s;
 }
+/*
 .artheader {
   text-align: center;
   font: bold 14px "Verdana", sans-serif;
@@ -372,6 +405,7 @@ h1 {
 .articlewrap {
   width: 800px;
 }
+*/
 .arrow {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
@@ -385,13 +419,13 @@ h1 {
   transition:0.5s;
 }
 .arrowwrap {
-  position: relative;
+  float: right;
   right: 5px;
   top: 0px;
-  position: absolute;
   height: 20px;
   background-color: rgba(192,192,192,1);
 }
+/*
 .categoryFilter {
   float: right;
   border-radius: 5px;
@@ -401,3 +435,4 @@ h1 {
 .categoryitems {
   cursor: pointer;
 }
+*/

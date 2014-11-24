@@ -1,20 +1,19 @@
 <?php
 /*
-Template Name: Home Template
+Template Name: Default Template
 */
 get_header();
 ?>
-<div class="pageWrapper">
+<div class="homePage">
   <?php the_post(); ?>
 
-  <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-    <div class="pageHeader">
-      <?php the_block('homeHeader') ?>
-    </div>
+  <div class="pageHeader">
+    <?php the_block('homeHeader') ?>
+  </div>
+  <div class="pageWrapper" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-    <div class="lineBreak"></div>
-
+    <div class="clear"></div>
     <div class="pageContent">
       <?php the_content(); ?>
     </div>
