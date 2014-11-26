@@ -4,7 +4,7 @@
     <?php the_block( 'blog Header') ?>
   </div>
 </div>
-<div id="container">
+<div id="blogContainer">
 
     <div id="blogContent">
 		<?php /* Top post navigation */ ?>
@@ -51,9 +51,10 @@
 		                </div><!-- #nav-below -->
 		<?php } ?>
     </div><!-- #content -->
-
-	<?php get_sidebar(); ?>
-
+    <div class="blogSidebar">
+	    <?php get_sidebar(); ?>
+    </div>
+    
 </div><!-- #container -->
 
 <div class="blogFootWrap">
