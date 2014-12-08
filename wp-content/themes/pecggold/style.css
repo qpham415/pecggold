@@ -1,4 +1,4 @@
-//General
+/* General */
 body {
   background-color: #FFFFFF;
 }
@@ -21,7 +21,7 @@ a {
   clear: both;
 }
 
-//Header
+/* Header */
 #header {
   height: 362px;
   width: 100%;
@@ -61,7 +61,7 @@ a {
 }
 
 
-//Menu
+/* Menu */
 #menubar {
   cursor: pointer;
   cursor: hand;
@@ -209,7 +209,7 @@ a {
   text-decoration: none;
 }
 
-//Footer
+/* Footer */
 #disclaimer {
   padding: 80px 0px 30px 100px;
   font: bold 10px "Verdana", sans-serif;
@@ -241,7 +241,7 @@ a {
 }
 
 
-//Home Page
+/* Home Page */
 .homePage {
   background: rgba(160,160,160,0.5);
   text-align: center;
@@ -269,7 +269,7 @@ a {
 }
 
 
-//Blog Articles
+/* Blog Articles */
 .headertext {
   font: bold 30px "Verdana", sans-serif;
   margin: 0 0 20px 35px;
@@ -345,7 +345,7 @@ a {
   right: 0px;
 }
 
-//Sidebar Widget
+/* Sidebar Widget */
 .widget-container {
   padding: 10px 5px;
   border: 1px solid rgba(160,160,160,0.2);
