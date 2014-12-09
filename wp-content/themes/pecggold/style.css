@@ -4,17 +4,27 @@ body {
 }
 
 h1 {
-  font: bold 25px "Arial Black", Gadget, sans-serif !important;
+  font: bold 30px Raleway !important;
 }
 
 h2 {
-  font: bold 20px "Arial Black", Gadget, sans-serif !important;
-  color: rgb(100,100,100);
+  font:800 26px Raleway !important;
+}
+
+h3 {
+  font:500 20px Raleway !important;
+}
+
+h4 {
+  font:600 14px Raleway !important;
+}
+
+p {
+  font:16px/1.4 Raleway !important;
 }
 
 a {
   text-decoration: none;
-  color: #428bca;
 }
 
 .clear {
@@ -278,11 +288,13 @@ a {
 }
 
 .entry-title {
-  font: bold 30px "Verdana", sans-serif;
-  color: #428bca;
-  text-decoration: none !important;
   float: left;
-  padding: 30px 30px 5px 30px;
+  padding: 30px 30px 15px 30px;
+}
+
+.entry-title a {
+  font:800 24px Raleway !important;
+  color: #428bca;
 }
 
 .entry-content {
@@ -294,15 +306,11 @@ a {
 }
 
 #blogContent {
-  width: 70%;
+  width: 75%;
   float: left;
 }
 
-.blogSidebar {
-  width: 30%;
-  float: left;
-}
-
+/* Blog Article Wrap and Arrow */
 #blogContainer {
   background-color: rgba(200,200,200,0.2);
   padding: 50px 170px 60px 170px;
@@ -322,6 +330,7 @@ a {
   -ms-transition:0.05s;
   -o-transition:0.05s;
   transition:0.05s;
+  border-radius: 3px;
 }
 
 .arrow {
@@ -346,6 +355,11 @@ a {
 }
 
 /* Sidebar Widget */
+.blogSidebar {
+  width: 25%;
+  float: left;
+}
+
 .widget-container {
   padding: 10px 5px;
   border: 1px solid rgba(160,160,160,0.2);
@@ -356,4 +370,12 @@ a {
 
 .widget-area {
   padding-left: 10px;
+}
+
+#searchinput {
+  width: 75%;
+}
+
+#searchsubmit {
+  width: auto;
 }

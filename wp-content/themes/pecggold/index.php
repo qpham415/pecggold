@@ -18,7 +18,7 @@
 		<?php /* Create a div with a unique ID thanks to the_ID() and semantic classes with post_class() */ ?>
 		                <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php /* an h2 title */ ?>
-		                    <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( __('Permalink to %s', 'hbd-theme'), the_title_attribute('echo=0') ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+		                    <div class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( __('Permalink to %s', 'hbd-theme'), the_title_attribute('echo=0') ); ?>" rel="bookmark"><?php the_title(); ?></a></div>
                         <div class="arrowwrap">
                           <div class="arrow"></div>
                         </div>
@@ -54,7 +54,7 @@
     <div class="blogSidebar">
 	    <?php get_sidebar(); ?>
     </div>
-    
+
 </div><!-- #container -->
 
 <div class="blogFootWrap">

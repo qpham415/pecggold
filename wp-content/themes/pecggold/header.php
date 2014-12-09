@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css" type="text/css" media="screen" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type='text/javascript' src='/wp-content/themes/pecggold/script.js'></script>
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700, 800, 900"></link>
   <title>Production</title>
 </head>
 <body <?php body_class(); ?>>
