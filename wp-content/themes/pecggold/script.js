@@ -116,10 +116,20 @@ $(document).ready(function(){
   //Navigation bar animation
   function addSlider() {
     $('.menu-main').prepend('<div class="menuSlider"></div>');
+
     var mainMenu = document.getElementById('menu-main');
+
     var menuItem = mainMenu.getElementsByClassName('current-menu-item');
+    var firstItem = mainMenu.getElementsByClassName('menu-item');
+
     var currentItem = menuItem[0];
-    $(currentItem).addClass('currLink');
+    var defaultItem = firstItem[0];
+
+    if (currentItem == null) {
+      $(defaultItem).addClass('currLink');
+    } else {
+      $(currentItem).addClass('currLink');
+    }
 
     var initialPos = $('.currLink').position();
     var initialWidth = $('.currLink').width();
@@ -200,10 +210,13 @@ $(document).ready(function(){
     var blog = document.getElementById('blogContent');
     var blogItem = blog.getElementsByClassName('post');
     var topItem = blogItem[0];
+    var secondItem = blogItem[1];
     $(topItem).addClass('fArticle');
 	  activeArticle('.fArticle');
+    $(secondItem).addClass('secondArticle');
+    activeArticle('.secondArticle');
 
-    //Activate menu upon click
+    //Activate article upon click
 	  $('.post').click(function(){
 	  activeArticle(this);
 	  });
