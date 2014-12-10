@@ -2,8 +2,9 @@
 </div>
 <footer id="footer" role="contentinfo">
   <div id="footertext">
-    <p>PECG Golden Gate</p>
-    <p style="font-size: 20px">Engineering California's Future</p>
+    <span>PECG Golden Gate</span>
+    <div class="clear"></div>
+    <span style="font-size: 20px">Engineering California's Future</span>
   </div>
   <div class="socialMedia">
     <div class="socialItem">
