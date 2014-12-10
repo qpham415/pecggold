@@ -2,7 +2,7 @@
 </div>
 <footer id="footer" role="contentinfo">
   <div id="footertext">
-    <span>PECG Golden Gate</span>
+    <span>PECG Golden Gate Section</span>
     <div class="clear"></div>
     <span style="font-size: 20px">Engineering California's Future</span>
   </div>

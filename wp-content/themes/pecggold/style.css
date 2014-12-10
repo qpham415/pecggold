@@ -312,6 +312,15 @@ a {
   padding: 0 30px 0 30px;
 }
 
+.entry-utility {
+  font:700 14px/1.4 Raleway;
+  padding-top: 20px;
+}
+
+.cat-links a {
+  color: rgb(66,139,202);
+}
+
 #blogContent {
   width: 75%;
   float: left;
