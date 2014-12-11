@@ -27,8 +27,14 @@ h6 {
   font:200 16px Raleway !important;
 }
 
+
 p {
-  font:16px/1.4 Raleway !important;
+  font:16px "Trebuchet MS", Helvetica, sans-serif !important;
+  margin: 20px 0 !important;
+}
+
+strong {
+  font-weight: bold !important;
 }
 
 a {
@@ -258,33 +264,6 @@ a {
 }
 
 
-/* Home Page */
-.homePage {
-  background: rgba(160,160,160,0.5);
-  text-align: center;
-}
-
-.pageWrapper {
-  width: 1077px;
-  padding: 50px;
-  display: inline-block;
-}
-
-.pageHeader {
-  text-align: center;
-  background: #ffffff;
-  width: 100%;
-}
-
-.lineBreak {
-  border-bottom: 4px solid rgb(160,160,160);
-}
-
-.pageContent {
-  padding-top: 30px;
-  text-align: center;
-}
-
 
 /* Blog Articles */
 .headertext {
@@ -433,4 +412,18 @@ input[type="submit"]:hover {
   color: rgb(160,160,160);
   font: bold 20px Raleway !important;
   padding-bottom: 5px;
+}
+
+
+/* Standard Template */
+.homePage {
+  background: rgba(200,200,200,0.2);
+  text-align: center;
+}
+
+.pageWrapper {
+  width: 909px;
+  padding: 50px;
+  display: inline-block;
+  text-align: left;
 }
