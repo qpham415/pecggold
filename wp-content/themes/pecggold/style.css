@@ -275,7 +275,7 @@ a {
 
 .entry-title {
   float: left;
-  padding: 30px 30px 15px 30px;
+  padding: 0 30px 15px 30px;
 }
 
 .entry-title a {
@@ -321,7 +321,7 @@ a {
 /* Blog Article Wrap and Arrow */
 .singleArticle {
   border: 2px solid rgba(0,0,0,0);
-  padding-bottom: 30px;
+  padding: 30px 0;
   position: relative;
 }
 
@@ -443,10 +443,21 @@ input[type="submit"]:hover {
 
 #postWrapper {
   text-align: center;
+  background-color: rgba(200,200,200,0.2);
 }
 
 .singlePost {
   width: 909px;
   display: inline-block;
   text-align: left;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 60px 0;
+  padding: 30px 0;
+}
+
+#nav-below {
+  overflow: auto;
+  padding: 40px 20px;
+  text-align: center;
 }
