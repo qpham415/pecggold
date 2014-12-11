@@ -17,7 +17,9 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="menu-static">
-    <div id="pecglogo"><?php echo $site_title = get_bloginfo( 'name' ); ?></div>
+    <a href="<?php echo get_site_url(); ?>">
+      <div id="pecglogo"><?php echo $site_title = get_bloginfo( 'name' ); ?></div>
+    </a>
     <div id="staticlinks">
       <?php #wp_page_menu( 'sort_column=menu_order' ); ?>
       <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => false ) ); ?>
