@@ -2,7 +2,9 @@
 </div>
 <footer id="footer" role="contentinfo">
   <div id="footertext">
-    <span>PECG Golden Gate Section</span>
+    <a href="<?php echo get_site_url(); ?>" style="color: inherit">
+      <span>PECG Golden Gate Section</span>
+    </a>
     <div class="clear"></div>
     <span style="font-size: 20px">Engineering California's Future</span>
   </div>
