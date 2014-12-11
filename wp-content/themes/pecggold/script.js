@@ -197,7 +197,7 @@ $(document).ready(function(){
 	  }
 
 	  //Arrow animation and borders on hover
-	  $('.post').hover(function(){
+	  $('.singleArticle').hover(function(){
 	    $(this).addClass('articleborders');
 	    $(this).find('.arrowwrap').show();
 	  },

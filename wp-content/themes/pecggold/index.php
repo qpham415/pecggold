@@ -11,7 +11,8 @@
 		<?php while ( have_posts() ) : the_post() ?>
 
 		<?php /* Create a div with a unique ID thanks to the_ID() and semantic classes with post_class() */ ?>
-		                <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		               <div class="singleArticle">
+                    <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php /* an h2 title */ ?>
 		                    <div class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( __('Permalink to %s', 'hbd-theme'), the_title_attribute('echo=0') ); ?>" rel="bookmark"><?php the_title(); ?></a></div>
                         <div class="arrowwrap">
@@ -34,7 +35,7 @@
 		                        <?php edit_post_link( __( 'Edit', 'hbd-theme' ), "<span class=\"meta-sep\">|</span>\n\t\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t\n" ) ?>
 		                    </div><!-- #entry-utility -->
 		                </div><!-- #post-<?php the_ID(); ?> -->
-
+                  </div>
 		<?php /* Close up the post div and then end the loop with endwhile */ ?>
 
 		<?php endwhile; ?>
