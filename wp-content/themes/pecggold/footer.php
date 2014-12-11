@@ -10,10 +10,10 @@
   </div>
   <div class="socialMedia">
     <div class="socialItem">
-      <a href=""><img src="wp-content/themes/pecggold/images/twitter.png" height="35px" width="35px"></a>
+      <a href="http://www.twitter.com/pecg" target="_blank"><img src="wp-content/themes/pecggold/images/twitter.png" height="35px" width="35px"></a>
     </div>
     <div class="socialItem">
-      <a href=""><img src="wp-content/themes/pecggold/images/youtube.png" height="35px" width="35px"></div></a>
+      <a href="http://www.youtube.com/user/PECGCA" target="_blank"><img src="wp-content/themes/pecggold/images/youtube.png" height="35px" width="35px"></div></a>
     </div>
   </div>
   <div id="disclaimer"></div>
