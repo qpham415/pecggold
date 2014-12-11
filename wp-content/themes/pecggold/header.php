@@ -26,7 +26,9 @@
   <div class="clear"></div>
     <div id="header" style="background: url('<?php header_image(); ?>') no-repeat">
         <div id="headerimgwrap">
-          <div id="headlogo1"></div>
+          <a href="<?php echo get_site_url(); ?>">
+            <div id="headlogo1"></div>
+          </a>
           <div class="clear"></div>
           <div class="headlogo2wrap">
             <div id="headlogo2">

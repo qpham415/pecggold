@@ -1,11 +1,6 @@
 <?php get_header(); ?>
-<div class="blogHeadWrap">
-  <div class="blogHeader">
-    <?php the_block( 'blog Header') ?>
-  </div>
-</div>
 <div id="blogContainer">
-
+  <div id="blogWrap">
     <div id="blogContent">
 		<?php /* Top post navigation */ ?>
 		<?php global $wp_query; $total_pages = $wp_query->max_num_pages; if ( $total_pages > 1 ) { ?>
@@ -54,7 +49,7 @@
     <div class="blogSidebar">
 	    <?php get_sidebar(); ?>
     </div>
-
+  </div>
 </div><!-- #container -->
 
 <div class="blogFootWrap">

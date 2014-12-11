@@ -30,7 +30,7 @@ h6 {
 
 p {
   font:16px "Trebuchet MS", Helvetica, sans-serif !important;
-  margin: 20px 0 !important;
+  margin-bottom: 20px !important;
 }
 
 strong {
@@ -300,18 +300,25 @@ a {
   color: rgb(66,139,202);
 }
 
+#blogContainer {
+  background-color: rgba(200,200,200,0.2);
+  overflow: auto;
+  text-align: center;
+}
+
+#blogWrap {
+  overflow: auto;
+  display: inline-block;
+  padding: 40px 0;
+}
+
 #blogContent {
-  width: 75%;
+  width: 700px;
+  text-align: left;
   float: left;
 }
 
 /* Blog Article Wrap and Arrow */
-#blogContainer {
-  background-color: rgba(200,200,200,0.2);
-  padding: 50px 170px 60px 170px;
-  overflow: auto;
-}
-
 .post {
   border: 2px solid rgba(0,0,0,0);
   padding-bottom: 30px;
@@ -351,9 +358,9 @@ a {
 
 /* Sidebar Widget */
 .blogSidebar {
-  width: 25%;
-  float: left;
   margin-top: 140px;
+  float: left;
+  text-align: left;
 }
 
 .widget-container {
@@ -424,6 +431,22 @@ input[type="submit"]:hover {
 .pageWrapper {
   width: 909px;
   padding: 50px;
+  display: inline-block;
+  text-align: left;
+}
+
+
+/* Single Posts */
+.postContent {
+  padding: 0 30px;
+}
+
+#postWrapper {
+  text-align: center;
+}
+
+.singlePost {
+  width: 909px;
   display: inline-block;
   text-align: left;
 }
