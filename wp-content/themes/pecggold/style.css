@@ -270,6 +270,12 @@ a {
 
 
 /* Blog Articles */
+#pageContainer {
+  background: rgba(200,200,200,0.2);
+  text-align: center;
+  overflow: auto;
+}
+
 .headertext {
   font: bold 30px "Verdana", sans-serif;
   margin: 0 0 20px 35px;
@@ -300,14 +306,12 @@ a {
   padding-top: 20px;
 }
 
-.cat-links a {
-  color: rgb(66,139,202);
+.entry-summary {
+  padding: 0 30px;
 }
 
-#blogContainer {
-  background-color: rgba(200,200,200,0.2);
-  overflow: auto;
-  text-align: center;
+.cat-links a {
+  color: rgb(66,139,202);
 }
 
 #blogWrap {
@@ -427,11 +431,6 @@ input[type="submit"]:hover {
 
 
 /* Standard Template */
-.homePage {
-  background: rgba(200,200,200,0.2);
-  text-align: center;
-}
-
 .pageWrapper {
   width: 909px;
   padding: 50px;
@@ -445,11 +444,6 @@ input[type="submit"]:hover {
   padding: 0 30px;
 }
 
-#postWrapper {
-  text-align: center;
-  background-color: rgba(200,200,200,0.2);
-}
-
 .singlePost {
   width: 909px;
   display: inline-block;
@@ -460,8 +454,13 @@ input[type="submit"]:hover {
   padding: 30px 0;
 }
 
-#nav-below {
-  overflow: auto;
-  padding: 40px 20px;
+/* Category Posts */
+#categoryWrap {
   text-align: center;
+}
+
+#categoryContent {
+  text-align: left;
+  width: 909px;
+  display: inline-block;
 }

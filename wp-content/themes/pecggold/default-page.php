@@ -4,7 +4,7 @@ Template Name: Standard Template
 */
 get_header();
 ?>
-<div class="homePage">
+<div class="pageContainer">
   <?php the_post(); ?>
 
   <div class="pageWrapper" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="blogContainer">
+<div id="pageContainer">
   <div id="blogWrap">
     <div id="blogContent">
 		<?php /* Top post navigation */ ?>
