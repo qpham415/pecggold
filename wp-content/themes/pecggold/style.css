@@ -154,7 +154,7 @@ a {
   outline: none;
 }
 
-#menu{
+#menu {
   position: absolute;
   bottom: 44px;
   height: 44px;
@@ -175,7 +175,7 @@ a {
 
 #menu li a {
   color: #FFFFFF;
-  font: bold 20px "Verdana", sans-serif;
+  font: 900 20px Raleway;
   text-decoration: none;
   margin: 8px 20px;
   display: block;
@@ -209,7 +209,7 @@ a {
 }
 
 #pecglogo {
-  font: bold 20px "Verdana", sans-serif;
+  font: 900 20px Raleway;
   float: left;
   margin: 8px 50px;
   color: #428bca;
@@ -226,11 +226,15 @@ a {
 }
 
 #staticlinks li a {
-  font: bold 20px "Verdana", sans-serif;
+  font: 900 20px Raleway;
   margin: 8px 20px;
   display: block;
   color: rgb(100,100,100);
   text-decoration: none;
+}
+
+#staticlinks li a:hover {
+  color: rgb(66,139,202);
 }
 
 /* Footer */
