@@ -289,7 +289,7 @@ a {
 
 .sortedTitle {
   font: 900 30px Raleway;
-  color: rgb(100,100,100);
+  color: rgb(160,160,160);
 }
 
 .entry-title a {
@@ -478,4 +478,19 @@ input[type="submit"]:hover {
 
 .filterHeader {
   overflow: auto;
+}
+
+/* Search Page */
+.centerTitle {
+  font: 900 26px Raleway;
+  color: rgb(170,170,170);
+  padding-top: 100px;
+}
+
+.searchContent {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 60px 10px;
+  margin: 10px 0;
+  min-height: 500px;
 }
