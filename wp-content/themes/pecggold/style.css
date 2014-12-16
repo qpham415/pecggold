@@ -273,7 +273,6 @@ a {
 #pageContainer {
   background: rgba(200,200,200,0.2);
   text-align: center;
-  overflow: auto;
 }
 
 .headertext {
@@ -286,6 +285,11 @@ a {
 .entry-title {
   float: left;
   padding: 0 30px 15px 30px;
+}
+
+.sortedTitle {
+  font: 900 30px Raleway;
+  color: rgb(100,100,100);
 }
 
 .entry-title a {
@@ -452,6 +456,8 @@ input[type="submit"]:hover {
   border-radius: 10px;
   margin: 60px 0;
   padding: 30px 0;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
 }
 
 /* Category Posts */
@@ -461,6 +467,15 @@ input[type="submit"]:hover {
 
 #categoryContent {
   text-align: left;
-  width: 909px;
+  width: 700px;
   display: inline-block;
+  padding-top: 70px;
+}
+
+.postSummary {
+  padding: 30px 0;
+}
+
+.filterHeader {
+  overflow: auto;
 }
