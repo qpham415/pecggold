@@ -29,12 +29,12 @@ h6 {
 
 
 p {
-  font:16px "Trebuchet MS", Helvetica, sans-serif !important;
+  font:400 18px Raleway !important;
   margin-bottom: 20px !important;
 }
 
 strong {
-  font-weight: bold !important;
+  font-weight: 900 !important;
 }
 
 a {
@@ -442,6 +442,9 @@ input[type="submit"]:hover {
   text-align: left;
 }
 
+.pageContent p a {
+  color: rgb(66,139,202);
+}
 
 /* Single Posts */
 .postContent {
