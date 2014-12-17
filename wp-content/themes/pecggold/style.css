@@ -267,14 +267,15 @@ a {
   padding: 0px 5px;
 }
 
-
-
-/* Blog Articles */
+/* Page Structure */
 #pageContainer {
   background: rgba(200,200,200,0.2);
   text-align: center;
 }
 
+
+
+/* Blog Articles */
 .headertext {
   font: bold 30px "Verdana", sans-serif;
   margin: 0 0 20px 35px;
@@ -498,4 +499,19 @@ input[type="submit"]:hover {
   min-height: 500px;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
   -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
+}
+
+/* Officers Template */
+.officerWrap {
+  background-color: #fff;
+  border: 1px solid rgb(160,160,160);
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+  float: right;
+  margin: 10px;
+  width: 400px;
+}
+
+.officerWrap a {
+  color: rgb(66,139,202);
 }
