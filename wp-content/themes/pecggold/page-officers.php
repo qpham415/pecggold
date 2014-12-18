@@ -9,6 +9,9 @@ get_header();
 
     <div class="pageWrapper" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
       <div class="officersContent">
+        <div class="officersHeader">
+          <h1>Officers</h1>
+        </div>
         <div class="officerWrap">
           <?php the_content(); ?>
         </div>

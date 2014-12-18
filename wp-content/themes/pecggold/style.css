@@ -29,7 +29,7 @@ h6 {
 
 
 p {
-  font:400 18px Raleway !important;
+  font:400 16px Raleway !important;
   margin-bottom: 20px !important;
 }
 
@@ -514,4 +514,10 @@ input[type="submit"]:hover {
 
 .officerWrap a {
   color: rgb(66,139,202);
+}
+
+.officersHeader {
+  padding: 50px 0 0 100px;
+  float: left;
+  color: #fff;
 }
