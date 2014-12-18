@@ -517,7 +517,28 @@ input[type="submit"]:hover {
 }
 
 .officersHeader {
-  padding: 50px 0 0 100px;
+  padding: 5px;
   float: left;
   color: #fff;
+  background-color: rgba(160,160,160,0.2);
+  border-radius: 5px;
+  margin: 50px 0 0 50px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/* Join Template */
+.joinButton {
+  padding: 14px 25px;
+  background-color: #fff;
+  display: inline-block;
+  font: 900 17px Raleway;
+  border-radius: 5px;
+  color: rgb(130,130,130);
+  border: 2px solid rgb(130,130,130);
+}
+
+.joinButtonWrap {
+  text-align: center;
+  width: 100%;
+  margin: 60px 0;
 }
